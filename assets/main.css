@@ -8611,6 +8611,10 @@ h3 {
     border-color: #dee2e6;
   }
 }
+body {
+  padding-bottom: 200px;
+}
+
 h1, h2 {
   color: #940f15;
   font-weight: bold;
@@ -8650,6 +8654,10 @@ h3, h4, h5, h6 {
 @media (min-width: 992px) {
   .before-banner-container ul {
     text-align: right;
+  }
+
+  body {
+    padding-bottom: 100px;
   }
 }
 nav {
@@ -8695,6 +8703,10 @@ nav a.nav-link, nav a.nav-link:hover {
 footer {
   position: fixed;
   bottom: 0;
+  width: 100%;
+}
+
+.col input, .col button, .col-md input, .col-md button, .col-3 input, .col-3 button, .col-9 input, .col-9 button {
   width: 100%;
 }
 

@@ -12,9 +12,9 @@
         <div class="wrap">
             <section>
                 <ul>
-                    <li><a href="" itemprop="url">Join</a></li>
-                    <li><a href="" itemprop="url">Yard Signs</a></li>
-                    <li><a href="" itemprop="url">Donate</a></li>
+                    <li><a href="#join" itemprop="url">Join</a></li>
+                    <li><a href="#yard-signs" itemprop="url">Yard Signs</a></li>
+                    <li><a href="#donate" itemprop="url">Donate</a></li>
                 </ul>
             </section>
         </div>
@@ -130,6 +130,112 @@
                 <p>The core of "constable" is "stable," and I promise to promote the stableness of the courts.</p>
             </li>
         </ul>
+
+    </article>
+
+    <article id="join" class="container pt-5 pb-5">
+
+        <h2 class="mt-5">Join</h2>
+        <p>Sign up to receive updates about the campaign.</p>
+        <form class="row">
+            <div class="col col-lg-9">
+                <label class="sr-only" for="email">Email</label>
+                <input class="form-control mr-2" type="email" id="email" placeholder="Email">
+            </div>
+            <div class="col col-lg-3">
+                <button class="btn btn-primary" type="submit">Sign me up!</button>
+            </div>
+        </form>
+
+    </article>
+
+    <article id="yard-signs" class="container pt-5 pb-5">
+
+        <h2 class="mt-5">Yard Signs</h2>
+        <p>Enter your addres to receive a yard sign in the mail&mdash;absolutely free.</p>
+        <form>
+            <div class="row">
+                <div class="col-md">
+                    <label class="sr-only" for="firstname">First name</label>
+                    <input class="form-control mr-2 mb-2" type="text" id="firstname" placeholder="First name">
+                </div>
+                <div class="col-md">
+                    <label class="sr-only" for="lastname">Last name</label>
+                    <input class="form-control mr-2 mb-2" type="text" id="lastname" placeholder="Last name">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label class="sr-only" for="streetaddress">Street address</label>
+                    <input class="form-control mr-2 mb-2" type="text" id="streetaddress" placeholder="Street address">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md">
+                    <label class="sr-only" for="city">City</label>
+                    <input class="form-control mr-2 mb-2" type="text" id="city" placeholder="City">
+                </div>
+                <div class="col-md">
+                    <label class="sr-only" for="state">State</label>
+                    <input class="form-control mr-2 mb-2" type="text" maxlength="2" id="state" placeholder="State">
+                </div>
+                <div class="col-md">
+                    <label class="sr-only" for="zip">Zipcode</label>
+                    <input class="form-control mr-2 mb-2" type="text" id="zip" placeholder="Zipcode">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <button class="btn btn-primary" type="submit">Send me a yard sign!</button>
+                </div>
+            </div>
+        </form>
+
+    </article>
+
+    <article id="donate" class="container pt-5 pb-5">
+
+        <h2 class="mt-5">Donate</h2>
+        <p>Chip in a donation today. I appreciate your support!</p>
+        <form>
+            <div class="row">
+                <div class="col-md">
+                    <label class="sr-only" for="email">Email</label>
+                    <input class="form-control mr-2 mb-2" type="email" id="email" placeholder="Email">
+                </div>
+                <div class="col-md">
+                    <label class="sr-only" for="firstname">First name</label>
+                    <input class="form-control mr-2 mb-2" type="text" id="firstname" placeholder="First name">
+                </div>
+
+                <div class="col-md">
+                    <label class="sr-only" for="lastname">Last name</label>
+                    <input class="form-control mr-2 mb-2" type="text" id="lastname" placeholder="Last name">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                    <label class="sr-only" for="cardnumber">Credit card number</label>
+                    <input class="form-control mr-2 mb-2" type="text" id="cardnumber" placeholder="Credit card number">
+                </div>
+                <div class="col col-lg-3">
+                    <label class="sr-only" for="expiration">Expiration date</label>
+                    <input class="form-control mr-2 mb-2" type="text" maxlength="5" id="expiration" placeholder="MM/YY">
+                </div>
+
+                <div class="col col-lg-3">
+                    <label class="sr-only" for="cvc">CVC</label>
+                    <input class="form-control mr-2 mb-2" maxlength="4"type="text" id="cvc" placeholder="CVC">
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <button class="btn btn-success" type="submit">Donate</button>
+                </div>
+            </div>
+        </form>
 
     </article>
 

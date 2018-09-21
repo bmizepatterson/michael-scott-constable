@@ -4,7 +4,7 @@
 
 To install dependencies, open your terminal to the project root and run `npm install`.
 
-## To combile sass
+## To compile sass
 
 Open your terminal to the project root and run this command:
 
@@ -12,5 +12,5 @@ Open your terminal to the project root and run this command:
 
 This will set up sass to watch the assets/main.scss file for changes. Sass produces/updates two files:
 
-1. assets/main.css (This is the css file used by the site.)
+1. assets/main.css (This is the stylesheet used by the site.)
 2. assets/main.css.map

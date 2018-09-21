@@ -8692,4 +8692,10 @@ nav a.nav-link, nav a.nav-link:hover {
   max-width: 1170px;
 }
 
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
 /*# sourceMappingURL=main.css.map */

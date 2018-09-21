@@ -1,0 +1,23 @@
+{
+  "name": "michael-scott-constable",
+  "version": "1.0.0",
+  "description": "## Installation instructions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmizepatterson/michael-scott-constable.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bmizepatterson/michael-scott-constable/issues"
+  },
+  "homepage": "https://github.com/bmizepatterson/michael-scott-constable#readme",
+  "devDependencies": {
+    "bootstrap": "^4.1.3",
+    "sass": "^1.14.0"
+  }
+}

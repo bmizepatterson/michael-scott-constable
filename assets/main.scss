@@ -47,15 +47,29 @@ $danger:        $red;
 $light:         $gray-100;
 $dark:          $gray-800;
 
+$body-bg:       $faded-flag;
+
+// Links
+$link-decoration: underline;
+
 
 // Type
-$font-family-sans-serif:      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+$font-family-sans-serif:      Questrial, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-size-base:              1.25rem;
 $display1-size:               5rem;
 $display2-size:               2.5rem;
 // .display-3 and and .display-4 are not used
 
 // Import default Bootstrap
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+h1,h2{
+    color: $patriotic-red;
+}
+h3,h4,h5,h6 {
+    color: $dark-blue;
+}
 
 .before-header-container {
     padding: 10px 0;
@@ -86,13 +100,6 @@ header {
     margin-top: 60px;
     min-height: 100px;
     width:100%;
-    .title-area {
-        float: left;
-        padding: 0;
-        width: 300px;
-        top: -45px;
-        position: absolute;
-    }
     nav {
         float: right;
         text-align: right;
@@ -108,7 +115,7 @@ header {
             li {
                 display: inline-block;
                 list-style-type: none;
-                a {
+                a, a:hover {
                     color: $white;
                     font-weight: bold;
                     padding: 25px 11px;
@@ -126,10 +133,13 @@ header {
     background-repeat: no-repeat;
     background-position: top center;
     padding: 270px 0 270px;
+    box-shadow: 0px 10px 20px -7px $gray-800;
     .site-title {
-        color:$white;
-        text-align:right;
-        text-shadow: 1px 1px 1px #000;
+        h1,h2 {
+            color:$white;
+            text-align:right;
+            text-shadow: 1px 1px 1px #000;
+        }
     }
 }
 .wrap {

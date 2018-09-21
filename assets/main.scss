@@ -73,28 +73,35 @@ h3,h4,h5,h6 {
 }
 
 .before-header-container {
-    padding: 10px 0;
-    text-align: right;
     position: absolute;
     width: 100%;
-    li {
-        display: inline-block;
-        list-style-type: none;
-        a {
-            padding: 10px 15px;
-            font-size: 17px;
-            text-transform: uppercase;
-            background-color: $primary;
-            border: 1px solid $primary;
-            font-weight: bold;
-            color: $white;
-            display: block;
-            min-width: 230px;
-            text-align: center;
-            text-decoration: none;
+    ul {
+        text-align: center;
+        padding: 0;
+        li {
+            display: inline-block;
+            list-style-type: none;
+            margin-bottom: 2px;
+            a {
+                padding: 10px 15px;
+                font-size: 17px;
+                text-transform: uppercase;
+                background-color: $primary;
+                border: 1px solid $primary;
+                font-weight: bold;
+                color: $white;
+                display: block;
+                min-width: 230px;
+                text-align: center;
+                text-decoration: none;
+            }
         }
     }
-        
+}
+@include media-breakpoint-up(lg) {
+  .before-header-container {
+    ul {text-align: right}
+  }
 }
 header {
     position: absolute;
@@ -133,13 +140,24 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;
-    padding: 270px 0 270px;
+    padding: 200px 10% 270px;
     box-shadow: 0px 10px 20px -7px $gray-800;
     .site-title {
         h1,h2 {
             color:$white;
             text-align:right;
-            text-shadow: 1px 1px 1px #000;
+            text-shadow: 3px 3px 10px #000;
+        }
+    }
+    .site-tag {
+        max-width: 500px;
+        float:right;
+        padding: 0.5rem;
+        margin-top: $spacer;
+        background-color: rgba(150, 150, 150, 0.8);
+        color: $white;
+        p {
+            margin:0;
         }
     }
 }

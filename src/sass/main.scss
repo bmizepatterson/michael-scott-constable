@@ -60,7 +60,7 @@ $font-size-base:              1.25rem;
 $display1-size:               5rem;
 $display2-size:               2.5rem;
 // .display-3 and and .display-4 are not used
-$shadow:                      3px 3px 10px #000;
+$shadow:                      3px 3px 10px #000, -3px -3px 20px #000;
 
 // Import default Bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap";
@@ -97,6 +97,10 @@ h3,h4,h5,h6 {
                 min-width: 230px;
                 text-align: center;
                 text-decoration: none;
+            }
+            [href="#donate"] {
+                background-color: $success;
+                border: 1px solid $success;
             }
         }
     }

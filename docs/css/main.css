@@ -8650,6 +8650,10 @@ h3, h4, h5, h6 {
   text-align: center;
   text-decoration: none;
 }
+.before-banner-container ul li [href="#donate"] {
+  background-color: #2e598f;
+  border: 1px solid #2e598f;
+}
 
 @media (min-width: 992px) {
   .before-banner-container ul {
@@ -8666,7 +8670,7 @@ nav {
 nav a.nav-link, nav a.nav-link:hover {
   color: #fff;
   font-weight: bold;
-  text-shadow: 3px 3px 10px #000;
+  text-shadow: 3px 3px 10px #000, -3px -3px 20px #000;
   text-decoration: underline;
 }
 
@@ -8681,7 +8685,7 @@ nav a.nav-link, nav a.nav-link:hover {
 .banner-container .site-title h1, .banner-container .site-title h2 {
   color: #fff;
   text-align: right;
-  text-shadow: 3px 3px 10px #000;
+  text-shadow: 3px 3px 10px #000, -3px -3px 20px #000;
 }
 .banner-container .site-tag {
   max-width: 500px;

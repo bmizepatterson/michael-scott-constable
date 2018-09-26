@@ -63,7 +63,7 @@ $display2-size:               2.5rem;
 $shadow:                      3px 3px 10px #000;
 
 // Import default Bootstrap
-@import "../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/bootstrap";
 
 body {padding-bottom: 200px;}
 
@@ -115,7 +115,7 @@ nav {
     }
 }  
 .banner-container {
-    background-image: url('homepage-banner.jpg');
+    background-image: url('../assets/homepage-banner.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top center;

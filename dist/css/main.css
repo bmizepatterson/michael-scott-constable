@@ -8671,7 +8671,7 @@ nav a.nav-link, nav a.nav-link:hover {
 }
 
 .banner-container {
-  background-image: url("homepage-banner.jpg");
+  background-image: url("../assets/homepage-banner.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top center;

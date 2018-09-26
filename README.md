@@ -4,13 +4,14 @@
 
 To install dependencies, open your terminal to the project root and run `npm install`.
 
-## To compile sass
+## Compiling Assets
 
-Open your terminal to the project root and run this command:
+Edit assets **only** in the `src/` directory. Run `npm run dev` to compile assets into the `docs/` directory. This script executes the following:
 
-`./node_modules/.bin/sass --watch assets/main.scss assets/main.css`
+1. Sass code in `src/sass/main.scss` is compiled into CSS in `docs/css/main.css`.
+2. All HTML files in `src/` are copied (without change) into analogous folders in `docs/`.
+3. Browser-sync starts a server and serves the site from `docs/`.
 
-This will set up sass to watch the assets/main.scss file for changes. Sass produces/updates two files:
+## Publishing instructions
 
-1. assets/main.css (This is the stylesheet used by the site.)
-2. assets/main.css.map
+Assets compile to the `docs/` directory. Ensure that Github Pages is configured to build the site from the `docs/` directory on the `master` branch.

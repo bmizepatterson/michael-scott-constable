@@ -3,9 +3,9 @@
   "description": "Michael Scott for Fayette County Constable, District 2",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "browser-sync": "./node_modules/.bin/browser-sync start --server 'dist' --files 'dist'",
-    "sass": "./node_modules/.bin/sass --watch src/sass/main.scss dist/css/main.css",
-    "copy": "./node_modules/.bin/cpx \"src/**/*.html\" dist --watch",
+    "browser-sync": "./node_modules/.bin/browser-sync start --server 'docs' --files 'docs'",
+    "sass": "./node_modules/.bin/sass --watch src/sass/main.scss docs/css/main.css",
+    "copy": "./node_modules/.bin/cpx \"src/**/*.html\" docs --watch",
     "dev": "./node_modules/.bin/concurrently \"npm run browser-sync\" \"npm run sass\" \"npm run copy\""
   },
   "repository": {

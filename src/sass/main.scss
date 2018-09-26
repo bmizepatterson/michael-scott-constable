@@ -65,7 +65,7 @@ $shadow:                      3px 3px 10px #000;
 // Import default Bootstrap
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
-body {padding-bottom: 200px;}
+body {padding-bottom: $spacer * 2}
 
 h1,h2{
     color: $patriotic-red;
@@ -103,7 +103,7 @@ h3,h4,h5,h6 {
 }
 @include media-breakpoint-up(lg) {
   .before-banner-container ul {text-align: right}
-  body {padding-bottom: 100px;}
+  body {padding-bottom: $spacer * 3}
 }
 nav {
     margin-top: $spacer;
